@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TarjetaPresentacion</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main class="cards">
+      <section class="contenido">
+        <figure>
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/5680/5680249.png"
+            alt="persona"
+            class="persona"
+          />
+        </figure>
+        <span class="pro"><h5>PRO</h5></span>
+        <h3>Neelesh Chauu</h3>
+        <h5 class="ui">UI/UX Designer</h5>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur nulla
+          quibusdam.
+        </p>
+        <div class="redes">
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/128/2175/2175193.png"
+              alt="facebook"
+          /></a>
+          <a href="#/"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/128/87/87390.png"
+              alt="instagram"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/128/3741/3741621.png"
+              alt="Baloncesto"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png"
+              alt="X"
+          /></a>
+
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/128/3621/3621467.png"
+              alt="Linkedin"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/128/733/733594.png"
+              alt="be"
+          /></a>
+        </div>
+        <div class="btn">
+          <button class="btn_msj">Message</button>
+          <button class="btn_conectar">Conectar</button>
+        </div>
+      </section>
+
+      <form
+        id="miFormulario"
+        class="cards-oculta activo"
+        action=""
+        method="POST"
+      >
+        <label for="comentario">Deja tu comentario:</label>
+        <br />
+        <textarea
+          id="comentario"
+          name="comentario"
+          rows="5"
+          cols="40"
+          placeholder="Escribe tu mensaje aquí..."
+          required
+        ></textarea
+        ><br />
+        <input type="submit" value="Enviar comentario"
+         />
+
+        <div id="resultado"></div>
+      </form>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

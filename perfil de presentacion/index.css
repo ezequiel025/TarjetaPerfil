@@ -1,0 +1,226 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f0f0f0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+  display: flex;
+  justify-content: center; /* centra horizontal */
+  align-items: center;     /* centra vertical */
+
+  min-height: 100vh; /* ocupa toda la pantalla */
+
+}
+
+/* CONTENEDOR PRINCIPAL */
+.cards{
+    max-width: 900px;
+    display: flex;
+   flex-wrap: wrap;
+    gap: 20PX;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+
+    background-color: rgb(214, 218, 218);
+
+    background-image: url("https://cdn.pixabay.com/photo/2026/02/09/07/02/tylijura-child-10112985_1280.jpg" );
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+/* TARJETAS */
+.contenido{
+  /* border: 5px solid #0cac37a5; */
+
+  width: 350px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+
+ 
+
+}
+
+/* IMAGEN */
+.persona{
+  margin-top: 15px;
+  border: 5px solid #100126a5;
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+.pro{
+  font-size: 12px;
+  
+  
+  width: 70px;
+  height: 25px;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+   
+     border-radius: 5px;
+   
+  background-color: #9accee47;
+  margin: 10px;
+}
+h5{
+  color: rgba(2, 44, 112, 0.955);
+}
+h3{
+ color: rgba(2, 44, 112, 0.955);
+  
+}
+.ui{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+p{
+  color: rgb(157, 154, 150);
+}
+
+/* REDES */
+.redes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.redes img{
+  width: 20px;
+}
+
+/* BOTONES */
+.btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 30px;
+ 
+ 
+}
+
+.btn button{
+  
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+ 
+  cursor: pointer;
+  border: 3px solid #020564;
+}
+.btn_conectar {
+   background-color: #030f6d;
+  color: white;
+  border: 3px solid #020564;
+   
+}
+
+.btn_conectar:hover {
+  background-color: white;
+  color: #030f6d;
+  border: 3px solid #020564;
+}
+
+.btn_msj{
+  background-color: white;
+}
+
+
+.btn_msj:hover{
+  background-color: #030f6d;
+  color: white;
+  border: 3px solid #020564;
+}
+.cards-oculta{
+
+      /* border: 5px solid red; */
+       color: white;
+      
+      flex-direction: column;
+      align-items: center;
+       border-radius: 10px;
+       box-shadow: 0 40px 150px rgba(0,0,0,0.1);
+       transition: transform 0.3s ease;
+       
+       display: flex; 
+      
+    }
+
+    cards-oculta textarea:focus {
+  border-color: #020564;
+  outline: none; /* Quita el borde negro por defecto del navegador */
+  box-shadow: 0 0 8px rgba(2, 5, 100, 0.3);
+}
+
+.cards-oculta textarea{
+
+  padding: 15px;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1.7px solid #4b0202;
+  justify-content: center;
+  align-items: center;
+ 
+} 
+
+
+
+
+.cards-oculta input[type="submit"] {
+  background-color: #020564;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cards-oculta input[type="submit"]:hover {
+  background-color: #03089c;
+}
+
+#resultado{
+  margin: 20px;
+  color: white;
+  max-width: 300px;
+ 
+}
+
+ /* responsive */
+
+ /* Estilos por defecto (móviles primero) */
+body {
+  background-color: rgb(217, 231, 236);
+}
+
