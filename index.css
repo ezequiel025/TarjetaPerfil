@@ -224,4 +224,27 @@ body {
   background-color: rgb(217, 231, 236);
 }
 
+
+
+@media(max-width:400px){
+  .contenido{
+   width: 80%;
+  }
+
+ .cards-oculta textarea{
+   width: 90%;
+
+ }
+
+
+ p{ color: rgb(157, 154, 150); margin: 5px; }  
+ 
+ .redes img{ width: 15px; } 
+ 
+ .btn button{ padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer; border: 3px solid #020564; }
+
+ 
+
+}
+
        
